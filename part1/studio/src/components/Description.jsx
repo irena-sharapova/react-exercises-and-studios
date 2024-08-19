@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Description.module.css';
 
-export default function RecipeAuthor() {
+export function RecipeAuthor() {
 
     let authorLink = "https://preppykitchen.com/waffle-recipe/";
     let authorPhoto = "https://preppykitchen.com/wp-content/uploads/2020/09/New-Headshot-Round-60-2.jpg";
@@ -28,10 +28,9 @@ class RecipeDescription extends React.Component {
                 </div>
                 <RecipeAuthor />
             </div>
-
         );
     }
 }
 
 
-export default RecipeDescription;
+export default RecipeDescription
