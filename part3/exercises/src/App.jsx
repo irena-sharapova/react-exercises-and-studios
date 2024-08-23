@@ -10,7 +10,7 @@ function App() {
       <div className="App">
 	  <h1>My Hobby: Needlepoint</h1>
 	  <HobbyIntroduction />
-	  <MyProjects />
+	  <MyProjects />  
       </div>
     </>
   )
