@@ -5,16 +5,16 @@ export default function BoardAssignment () {
    const [boardName, setBoardName] = useState ("No boards yet!");
    const boards = [
       {
-         label: "1",
-         value:"11"
+         label: "My board 1",
+         value:"My board 1"
       },
       {
-         label: "2",
-         value:"22"
+         label: "My board 2",
+         value:"My board 2"
       },
       {
-         label: "3",
-         value:"33"
+         label: "My board 3",
+         value:"My board 3"
       }
    ];
 
